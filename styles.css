@@ -102,3 +102,19 @@ footer p
     padding-left: 20px;
 }
 
+@media (max-width: 768px) 
+{
+    footer 
+    {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 10px 0;
+        background-color: #4A4641;
+    }
+
+        footer p 
+        {
+            padding: 5px 20px;
+        }
+}
