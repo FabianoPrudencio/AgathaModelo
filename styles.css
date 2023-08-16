@@ -56,21 +56,20 @@ td
 }
 
 .image-container 
-{    
+{
     border: 3px solid #333;
     border-radius: 10px;
     margin-top: 50px;
     margin-bottom: 50px;
     justify-content: space-between;
     display: flex;
-    overflow-x: auto;
-    overflow: auto;
 }
 
 .image-container img 
 {
     margin: 5px;
     transition: transform 0.3s; 
+
     height: auto;
 }
 
