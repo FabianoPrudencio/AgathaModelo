@@ -63,6 +63,8 @@ td
     margin-bottom: 50px;
     justify-content: space-between;
     display: flex;
+    overflow-x: auto;
+    overflow: auto;
 }
 
 .image-container img 
@@ -83,9 +85,6 @@ footer
     width: 100%;
     padding: 1px 0;
     background-color: #4A4641;
-
-    overflow-x: ;
-    overflow: auto;
 }
 
 footer a
