@@ -18,9 +18,6 @@
     margin-top: 30px;
     border-bottom: 3px solid #4c4c4c;
     display: inline-block;
-
-    overflow-x: auto;
-    overflow: auto;
 }
 
 .heart 
@@ -32,18 +29,13 @@
     justify-content: center;
     height: 1vh;
     margin: 0;
-
-    overflow-x: auto;
-    overflow: auto;
 }
 
-.collum1 {
+.collum1 
+{
     margin-top: 70px;
     padding: 10px;
     background-color: #4A4641;
-
-    overflow-x: auto;
-    overflow: auto;
 }
 
 th 
@@ -53,9 +45,6 @@ th
     width: 3%;
     text-align: center;
     color: #fff;
-
-    overflow-x: auto;
-    overflow: auto;
 }
 
 td 
@@ -64,21 +53,16 @@ td
     width: 3%;
     text-align: center;
     color: #fff;
-
-    overflow-x: auto;
-    overflow: auto;
 }
 
 .image-container 
-{
-    overflow: hidden;
+{    
     border: 3px solid #333;
     border-radius: 10px;
     margin-top: 50px;
     margin-bottom: 50px;
     justify-content: space-between;
     display: flex;
-
     overflow-x: auto;
     overflow: auto;
 }
@@ -86,7 +70,8 @@ td
 .image-container img 
 {
     margin: 0 50px;
-    transition: transform 0.3s;
+    transition: transform 0.3s; 
+    height: auto;
 }
 
 .image-container:hover img 
@@ -101,17 +86,13 @@ footer
     padding: 1px 0;
     background-color: #4A4641;
 
-    display: flex;
-    overflow-x: auto;
+    overflow-x: ;
     overflow: auto;
 }
 
 footer a
 {
     padding-left: 20px;
-
-    overflow-x: auto;
-    overflow: auto;
 }
 
 footer p 
@@ -119,8 +100,5 @@ footer p
     color: #fff;
     font-size: 18px;
     padding-left: 20px;
-
-    overflow-x: auto;
-    overflow: auto;
 }
 
