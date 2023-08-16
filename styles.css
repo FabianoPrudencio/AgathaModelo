@@ -63,13 +63,11 @@ td
     margin-bottom: 50px;
     justify-content: space-between;
     display: flex;
-    overflow-x: auto;
-    overflow: auto;
 }
 
 .image-container img 
 {
-    margin: 0 50px;
+    margin: 5px;
     transition: transform 0.3s; 
     height: auto;
 }
