@@ -1,0 +1,126 @@
+﻿body 
+{
+    background-color: #EE82EE;
+    margin: 0;
+    padding: 0;
+}
+
+.title 
+{
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    line-height: 45px;
+    font-family: 'Gotham-Book';
+    font-weight: normal;
+    font-style: normal;
+    color: #4c4c4c;
+    margin-top: 30px;
+    border-bottom: 3px solid #4c4c4c;
+    display: inline-block;
+
+    overflow-x: auto;
+    overflow: auto;
+}
+
+.heart 
+{
+    display: flex;
+    color: red;
+    font-size: 70px;
+    align-items: center;
+    justify-content: center;
+    height: 1vh;
+    margin: 0;
+
+    overflow-x: auto;
+    overflow: auto;
+}
+
+.collum1 {
+    margin-top: 70px;
+    padding: 10px;
+    background-color: #4A4641;
+
+    overflow-x: auto;
+    overflow: auto;
+}
+
+th 
+{
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 3%;
+    text-align: center;
+    color: #fff;
+
+    overflow-x: auto;
+    overflow: auto;
+}
+
+td 
+{
+    text-transform: uppercase;
+    width: 3%;
+    text-align: center;
+    color: #fff;
+
+    overflow-x: auto;
+    overflow: auto;
+}
+
+.image-container 
+{
+    overflow: hidden;
+    border: 3px solid #333;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    display: flex;
+
+    overflow-x: auto;
+    overflow: auto;
+}
+
+.image-container img 
+{
+    margin: 0 50px;
+    transition: transform 0.3s;
+}
+
+.image-container:hover img 
+{
+    transform: scale(1.1);
+}
+
+footer
+{
+    float: left;
+    width: 100%;
+    padding: 1px 0;
+    background-color: #4A4641;
+
+    display: flex;
+    overflow-x: auto;
+    overflow: auto;
+}
+
+footer a
+{
+    padding-left: 20px;
+
+    overflow-x: auto;
+    overflow: auto;
+}
+
+footer p 
+{    
+    color: #fff;
+    font-size: 18px;
+    padding-left: 20px;
+
+    overflow-x: auto;
+    overflow: auto;
+}
+
